@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/product-detailed-images",
+	"title": "Product Detailed Images",
+	"category": "inoventis-product",
+	"icon": "format-gallery",
+	"description": "Add detailed product images with captions in a grid layout.",
+	"keywords": [ "product", "images", "gallery", "detailed" ],
+	"textdomain": "inoventis",
+	"editorStyle": "file:./editor.css",
+	"attributes": {
+		"images": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": false
+	}
+}
+

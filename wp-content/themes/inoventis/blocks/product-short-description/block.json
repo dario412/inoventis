@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/product-short-description",
+	"title": "Product Short Description",
+	"category": "inoventis-product",
+	"icon": "text",
+	"description": "Add a short description for the product with rich text formatting.",
+	"keywords": [ "product", "description", "short" ],
+	"textdomain": "inoventis",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": ".product-short-description-content"
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": false
+	}
+}
+

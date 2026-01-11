@@ -1,0 +1,20 @@
+.product-related-products-editor {
+	padding: 1.5rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #f9f9f9;
+}
+
+.related-products-editor-header h3 {
+	margin: 0 0 1rem 0;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.related-products-editor-description {
+	margin: 0;
+	color: #666;
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+

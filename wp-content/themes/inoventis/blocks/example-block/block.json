@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/example-block",
+	"title": "Example Block",
+	"category": "text",
+	"icon": "star-filled",
+	"description": "An example custom block for the Inoventis theme. Edit this to create your own blocks.",
+	"keywords": [ "example", "custom", "inoventis" ],
+	"textdomain": "inoventis",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Hello from Inoventis!"
+		},
+		"content": {
+			"type": "string",
+			"default": "This is an example custom block. Edit it to create your own blocks."
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#f0f0f0"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	}
+}
+

@@ -1,0 +1,17 @@
+/**
+ * Frontend styles for Example Block
+ */
+.wp-block-inoventis-example-block {
+	padding: 2rem;
+	border-radius: 8px;
+	margin: 2rem 0;
+}
+
+.wp-block-inoventis-example-block h2 {
+	margin-top: 0;
+}
+
+.wp-block-inoventis-example-block p {
+	margin-bottom: 0;
+}
+

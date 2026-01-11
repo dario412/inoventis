@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/product-related-products",
+	"title": "Product Related Products",
+	"category": "inoventis-product",
+	"icon": "grid-view",
+	"description": "Display related products from the same category or subcategory.",
+	"keywords": [ "product", "related", "products", "similar" ],
+	"textdomain": "inoventis",
+	"editorStyle": "file:./editor.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Слични производи"
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": false
+	}
+}
+

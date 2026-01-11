@@ -1,0 +1,9 @@
+/**
+ * Editor styles for Example Block
+ */
+.wp-block-inoventis-example-block {
+	padding: 2rem;
+	border: 1px dashed #ccc;
+	border-radius: 8px;
+}
+

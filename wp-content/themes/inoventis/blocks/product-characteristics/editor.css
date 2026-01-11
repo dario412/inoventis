@@ -1,0 +1,50 @@
+.product-characteristics-editor {
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.characteristics-editor-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.characteristics-editor-header h3 {
+	margin: 0;
+	font-size: 16px;
+}
+
+.no-items-message {
+	padding: 20px;
+	text-align: center;
+	color: #666;
+	font-style: italic;
+	background: #f6f7f7;
+	border-radius: 4px;
+}
+
+.characteristics-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.characteristic-row-editor {
+	padding: 15px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.char-fields {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+

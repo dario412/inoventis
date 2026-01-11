@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/product-characteristics",
+	"title": "Product Characteristics",
+	"category": "inoventis-product",
+	"icon": "editor-ul",
+	"description": "Add product characteristics that will display as an accordion.",
+	"keywords": [ "product", "characteristics", "accordion" ],
+	"textdomain": "inoventis",
+	"editorStyle": "file:./editor.css",
+	"attributes": {
+		"characteristics": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": false
+	}
+}
+

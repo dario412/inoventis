@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "inoventis/product-specifications",
+	"title": "Product Specifications",
+	"category": "inoventis-product",
+	"icon": "list-view",
+	"description": "Add product specifications in a table format.",
+	"keywords": [ "product", "specifications", "table" ],
+	"textdomain": "inoventis",
+	"editorStyle": "file:./editor.css",
+	"attributes": {
+		"specifications": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": false
+	}
+}
+
